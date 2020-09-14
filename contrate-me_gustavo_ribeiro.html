@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curriculo</title>
+        <link rel="stylesheet" type="text/css" href="estilo2.css"/>        
+    </head>
+    
+    <body>
+       
+       <br> <!-- deixei para dar um espaço para o ínicio das informações do form -->
+       <br>
+       <br>
+            <form>
+
+                <!-- prof, pesquisei alguns formulários já prontos, pois estava com dificuldade em deixar tudo alinhado -->
+
+                <font face= "Arial">
+                <center>
+				<label for="interessado" style="margin-top: 20px;" class="label1"><b>Nome do interessado:</b></label><br>
+				<input id="interessado" type="text" name="interessado" class="input1"/><br><br>
+				<label for="empresa" class="label1"><b>Nome da empresa:</b></label><br>
+				<input id="empresa" type="text" name="empresa" class="input1"/><br><br>
+				<label for="salario" class="label1"><b>Salário:</b></label><br>
+				<input id="salario" style="width: 280px;" type="number" name="salario" class="input1" min="1500.00" max="5000.00" maxlength="10" /><br><br>
+				<label for="tipo" name="tipo" class="label1"><b>Tipo de trabalho:</b></label><br>
+				<select id="tipo" style="width: 285px; height: 27px;" class="input1">
+					<option value="null" selected><b>Selecione...</b></option>
+					<option value="Home">Home office</option> 
+					<option value="Presencial">Presencial</option>
+					<option value="Misto">Misto</option>
+				</select><br><br>
+				<label class="label1"><b>Tipo de vínculo:</b></label>
+				<input style="margin-left: 20px;" name="vinculo" type="radio" class="input2" id="C" value="CLT"/><label for="C" class="label2">CLT</label>
+				<input style="margin-left: 20px;" name="vinculo" type="radio" class="input2" id="P" value="PJ"/><label for="P" class="label2">PJ</label>
+				<input style="margin-left: 20px;" name="vinculo" type="radio" class="input2" id="F" value="Freelancer"/><label for="F" class="label2">Freelancer</label>
+				<br><br>
+				<label class="label1" for="data"><b>Data de início:</b></label><br>
+				<input id="data" style="width: 285px; height: 28px;" type="date" name="inicio" class="input1"/><br><br>
+				<input style="margin-left: 30px;" type="checkbox" id="urgencia">
+				<label class="label2" for="urgencia"><b>Preciso dos seus serviços com urgência!</b></label><br><br>
+            </form>
+            <font color="white"> 
+			<a href="jaEnviado.html"><button style="background-color: rgb(2, 2, 121);" ><label style="font-size: 17px; margin-left: 6px;" class="label1">Enviar</label></button></a>
+			<a href="curriculo.html"><button style="background-color: rgb(110, 17, 17);"><label style="font-size: 17px; margin-left: 6px;" class="label1">Página Anterior</label></button></a>
+            </font>    
+            </center>
+            </font>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

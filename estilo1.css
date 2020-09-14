@@ -1,0 +1,35 @@
+body { 
+    background-image: url(fundo.jpg);
+}
+
+#ir {
+   
+    margin: 35px;
+    width: 150px;
+    height: 42px;
+    background-color: rgb(52, 52, 168);
+    border-radius: 3px;
+    
+
+}
+
+
+
+.txt {
+
+    color:white;
+    margin-left: 0px;
+
+}
+
+.img{
+
+    width: 10px; 
+    height: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+}
+
+
